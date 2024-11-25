@@ -1,8 +1,4 @@
-FROM node:14-alpine
-
-# Dependencies
-# RUN apk update && apk upgrade && \
-#    apk add --no-cache bash gawk sed grep bc coreutils git openssh
+FROM node:20-alpine
 
 ENV NODE_ENV=production \
   MONGODB_URI=mongodb://mongodb \
